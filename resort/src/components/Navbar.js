@@ -41,7 +41,7 @@ export default class Navbar extends Component {
               <Link to="/team">Team</Link>
             </li>
             <li>
-              <Link to="/testimonial">Testimonial</Link>
+              <Link to="/testimonial">reviews</Link>
             </li>
           </ul>
         </div>
