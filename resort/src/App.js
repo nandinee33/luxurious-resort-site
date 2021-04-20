@@ -6,6 +6,7 @@ import Rooms from "./pages/Rooms";
 import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error";
 import Team from "./pages/Team";
+import Testimonial from "./pages/Testimonial";
 
 import Navbar from "./components/Navbar";
 
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/rooms/" component={Rooms} />
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route exact path="/team/" component={Team} />
+        <Route exact path="/testimonial/" component={Testimonial} />
         <Route component={Error} />
       </Switch>
     </>
