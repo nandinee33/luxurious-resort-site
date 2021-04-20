@@ -1,59 +1,60 @@
 import React, { Component } from 'react'
 import Title from "./Title";
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
+import { MdRateReview } from "react-icons/md";
 
 export default class Services extends Component {
 
     state = {
         services: [
           {
-            icon: <FaCocktail />,
-            title: "Free Cocktails",
+            icon: <MdRateReview />,
+            title: "Naina Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: <FaHiking />,
-            title: "Endless Hiking",
+            icon: <MdRateReview />,
+            title: "Naina Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: <FaShuttleVan />,
-            title: "Free Shuttle",
+            icon: <MdRateReview />,
+            title: "Naina Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: <FaBeer />,
-            title: "Strongest Beer",
+            icon: <MdRateReview />,
+            title: "Naina Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: <FaBeer />,
-            title: "Strongest Beer",
+            icon: <MdRateReview />,
+            title: "Naina Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: <FaBeer />,
-            title: "Strongest Beer",
+            icon: <MdRateReview />,
+            title: "Naina Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: <FaBeer />,
-            title: "Strongest Beer",
+            icon: <MdRateReview />,
+            title: "Naina Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: <FaBeer />,
-            title: "Strongest Beer",
+            icon: <MdRateReview />,
+            title: "Naina Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           }
+          
           
         ]
       };
