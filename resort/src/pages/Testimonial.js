@@ -1,18 +1,21 @@
 import React from 'react'
-import Hero from "../components/Hero"
-import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
+import Hero from "../components/Hero"
+import Banner from "../components/Banner"
+import Feedback from "../components/Feedback"
 
-const Testimonial = () => {
+
+export default function Testimonial() {
     return (
+        <>
         <Hero hero="roomsHero">
-            <Banner title="Feedbacks">
+            <Banner title="Feedback">
                 <Link to="/" className="btn-primary">
                     return home
                 </Link>
             </Banner>
         </Hero>
+        <Feedback/>
+        </>
     )
 }
-
-export default Testimonial
