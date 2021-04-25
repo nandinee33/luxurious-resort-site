@@ -41,18 +41,6 @@ export default class Services extends Component {
             title: "Naina Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
-          },
-          {
-            icon: <MdRateReview />,
-            title: "Naina Gupta",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
-          },
-          {
-            icon: <MdRateReview />,
-            title: "Naina Gupta",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           }
           
           

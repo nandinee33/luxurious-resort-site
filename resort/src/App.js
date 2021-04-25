@@ -9,7 +9,6 @@ import Team from "./pages/Team";
 import Testimonial from "./pages/Testimonial";
 
 import Navbar from "./components/Navbar";
-
 import { Switch, Route } from "react-router-dom";
 
 function App() {

@@ -11,7 +11,7 @@ export default function Home() {
         <Hero>
             <Banner
                 title="Luxurious Rooms"
-                subtitle="deluxe rooms starting at Rs.1000"
+                subtitle="deluxe rooms starting at &#8377;1000"
                 >
                 <Link to="/rooms" className="btn-primary">
                     our rooms
