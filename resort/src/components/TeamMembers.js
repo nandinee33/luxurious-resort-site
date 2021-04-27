@@ -1,67 +1,39 @@
 import React, { Component } from 'react'
 import Title from "./Title";
-import img1 from "../images/teamNdTestimonials/1.jfif";
-import img2 from "../images/teamNdTestimonials/2.jfif";
-import img3 from "../images/teamNdTestimonials/5.jfif";
-import img4 from "../images/teamNdTestimonials/10.jpg";
-import img5 from "../images/teamNdTestimonials/6.png";
-import img6 from "../images/teamNdTestimonials/7.png";
-import img7 from "../images/teamNdTestimonials/8.png";
-import img8 from "../images/teamNdTestimonials/9.jpg";
-
+import unnati from "../images/teamNdTestimonials/Unnati.jpeg";
+import roshni from "../images/teamNdTestimonials/Roshni.jpeg";
+import saumya from "../images/teamNdTestimonials/Saumya.jpeg";
+import nandinee from "../images/teamNdTestimonials/Nandinee.jpeg";
 
 export default class Services extends Component {
 
     state = {
         services: [
           {
-            icon: img7,
+            icon: nandinee,
             title: "Nandinee Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: img5,
+            icon: saumya,
             title: "Saumya Gupta",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: img8,
+            icon: unnati,
             title: "Unnati Goyal",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
           {
-            icon: img6,
+            icon: roshni,
             title: "Roshni Rawat",
             info:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
           },
-          {
-            icon: img2,
-            title: "Pankaj Kapoor",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
-          },
-          {
-            icon: img1,
-            title: "Krishna Gupta",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
-          },
-          {
-            icon: img4,
-            title: "Nitish Goyal",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
-          },
-          {
-            icon: img3,
-            title: "Sachin Bansal",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
-          }
+         
           
           
         ]
@@ -70,7 +42,7 @@ export default class Services extends Component {
     render() {
         return (
             <section className="services">
-                <Title title="Testimonials" />
+                <Title title="Our Team" />
                 <div className="services-center">
                 {this.state.services.map(item => {
                     return (
