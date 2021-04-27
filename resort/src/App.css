@@ -373,10 +373,20 @@
     grid-row-gap: 2rem;
     grid-column-gap: 50px;
   }
+
   .single-room-images img {
     width: 100%;
+    margin-bottom: 10px;
     display: block;
   }
+
+  .testimonial-imgs img {
+    width: 22%;
+    height: 210px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
   .single-room-info {
     width: 80vw;
     display: grid;
@@ -512,3 +522,7 @@
     }
   }
   /* end of rooms fitler*/
+
+  .about-para{
+    text-transform: none;
+  }
