@@ -47,7 +47,7 @@ export default class Services extends Component {
                 {this.state.services.map(item => {
                     return (
                     <article key={`item-${item.title}`} className="service">
-                      <div className="testimonial-imgs single-room-images ">
+                      <div className="testimonial-imgs">
                         <img src={item.icon}/>
                         </div>
                         {/* <span>{item.icon}</span> */}
