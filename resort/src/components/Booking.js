@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import Title from "./Title";
 import { GiBank } from "react-icons/gi";
 
-export default class Services extends Component {
+export default class Booking extends Component {
 
     state = {
-        services: [
+        booking: [
           {
             icon: <GiBank />,
             title: "UPI Pay",
@@ -38,7 +38,7 @@ export default class Services extends Component {
             <section className="services">
                 <Title title="payment Modes" />
                 <div className="services-center">
-                {this.state.services.map(item => {
+                {this.state.booking.map(item => {
                     return (
                     <article key={`item-${item.title}`} className="service">
                         <span>{item.icon}</span>

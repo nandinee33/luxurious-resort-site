@@ -10,57 +10,57 @@ import img7 from "../images/teamNdTestimonials/8.png";
 import img8 from "../images/teamNdTestimonials/9.jpg";
 
 
-export default class Services extends Component {
+export default class Feedback extends Component {
 
     state = {
-        services: [
+        feedback: [
           {
             icon: img7,
             title: "Nandinee Gupta",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "The UI is user friendly and and the room in which I stayed in was hygiene, well-maintained. The food in the hotel was also delicious with reasonable prices and room delivery is available."
           },
           {
             icon: img5,
             title: "Saumya Gupta",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "I didn't pre-book a room still I got negotiable rate. The bathroom and restroom was clean. Also customer service. Maybe that's why I was spared from being scammed."
           },
           {
             icon: img8,
             title: "Unnati Goyal",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "I like Luxurious resort because it has changed the way you book hotels to stay. You don't need to worry about the quality, they ensures the quality. The promotions are too good that one can get Rooms at unbelievable price. ❤"
           },
           {
             icon: img6,
             title: "Roshni Rawat",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "The hotel stay was very pleasant and comfortable. The staff was very polite and helpful, the location was very convenient for getting around and many activities"
           },
           {
             icon: img2,
             title: "Pankaj Kapoor",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Website is convenient, and easy to use. The stay at the location is also good, staffs are friendly, and accommodating. Will definitely use the website again"
           },
           {
             icon: img1,
             title: "Krishna Gupta",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Easy to navigate and the rates are very friendly. They offer discounted rates which will surely make you book for it."
           },
           {
             icon: img4,
             title: "Nitish Goyal",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Nice location, walking distance to BGC district. The hotel its clean, with nice amenities on the roof. Front desk 24/7 with very friendly staff. The room it's clean and good for two person, with own CR, Aircon. Nice experience"
           },
           {
             icon: img3,
             title: "Sachin Bansal",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Exceptional experience..The platform is ultra simple and all kinds of rooms available..ty oyo for the service."
           }
           
           
@@ -72,12 +72,13 @@ export default class Services extends Component {
             <section className="services">
                 <Title title="Testimonials" />
                 <div className="services-center">
-                {this.state.services.map(item => {
+                {this.state.feedback.map(item => {
                     return (
                     <article key={`item-${item.title}`} className="service">
-                      <div className="testimonial-imgs single-room-images ">
-                        <img src={item.icon}/>
+                      <div className="testimonial-imgs">
+                        <img src={item.icon} alt="customers"/>
                         </div>
+                        
                         {/* <span>{item.icon}</span> */}
                         <h6>{item.title}</h6>
                         <p>{item.info}</p>

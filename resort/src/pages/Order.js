@@ -9,7 +9,7 @@ export default function Order() {
     return (
         <>
         <Hero hero="roomsHero">
-            <Banner title="Conferm Your Booking">
+            <Banner title="Confirm Your Booking">
                 <Link to="/rooms" className="btn-primary">
                     return to rooms
                 </Link>

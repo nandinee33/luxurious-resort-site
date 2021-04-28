@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Title from "./Title";
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
+import { FaCocktail, FaSwimmer, FaShuttleVan, FaBeer } from "react-icons/fa";
+import { IoIosFitness } from "react-icons/io";
 
 export default class Services extends Component {
 
@@ -10,25 +11,25 @@ export default class Services extends Component {
             icon: <FaCocktail />,
             title: "Free Cocktails",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Happy Hour runs between 5:30pm-7:30pm in which you have some light snacks and wine."
           },
           {
-            icon: <FaHiking />,
-            title: "Endless Hiking",
+            icon: <IoIosFitness />,
+            title: "Gyming",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
-          },
+              "Our friendly, professional staff is trained to help you along your fitness journey."
+          },   
           {
             icon: <FaShuttleVan />,
             title: "Free Shuttle",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Provided from resorts along with a guide to travel all the near side cites."
           },
           {
-            icon: <FaBeer />,
-            title: "Strongest Beer",
+            icon: <FaSwimmer />,
+            title: "Swimming",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Take a dip and relax while sipping your drinks and enjoying your tan on swimming pools."
           }
         ]
       };
