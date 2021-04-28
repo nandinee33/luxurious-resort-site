@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import Title from "./Title";
 import unnati from "../images/teamNdTestimonials/Unnati.jpeg";
-import roshni from "../images/teamNdTestimonials/Roshni.jpeg";
-import saumya from "../images/teamNdTestimonials/Saumya.jpeg";
-import nandinee from "../images/teamNdTestimonials/Nandinee.jpeg";
+import roshni from "../images/teamNdTestimonials/Roshni.jpg";
+import saumya from "../images/teamNdTestimonials/Saumya.jpg";
+import nandinee from "../images/teamNdTestimonials/Nandinee.jpg";
 
 export default class Services extends Component {
 
@@ -13,25 +13,25 @@ export default class Services extends Component {
             icon: nandinee,
             title: "Nandinee Gupta",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Frontend and backend Developer"
           },
           {
             icon: saumya,
             title: "Saumya Gupta",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+            "Frontend and backend Developer"
           },
           {
             icon: unnati,
             title: "Unnati Goyal",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+            "Frontend and backend Developer"
           },
           {
             icon: roshni,
             title: "Roshni Rawat",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+            "Frontend and backend Developer"
           },
          
           
