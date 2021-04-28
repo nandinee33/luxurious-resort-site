@@ -250,6 +250,14 @@
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
   }
+
+  .service .testimonial-imgs img {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    width: 220px;
+    height: 210px;
+  }
+
   .services h6 {
     letter-spacing: var(--mainSpacing);
     text-transform: capitalize;
@@ -380,13 +388,6 @@
     display: block;
   }
 
-  .testimonial-imgs img {
-    width: 220px;
-    height: 210px;
-    margin-bottom: 10px;
-    display: block;
-  }
-
   .single-room-info {
     width: 80vw;
     display: grid;
@@ -431,7 +432,7 @@
   @media screen and (min-width: 992px) {
     .single-room-images,
     .single-room-info,
-    .room-extras {
+    .room-extras{
       width: 95vw;
       max-width: 1170px;
     }

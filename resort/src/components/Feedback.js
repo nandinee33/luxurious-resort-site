@@ -10,10 +10,10 @@ import img7 from "../images/teamNdTestimonials/8.png";
 import img8 from "../images/teamNdTestimonials/9.jpg";
 
 
-export default class Services extends Component {
+export default class Feedback extends Component {
 
     state = {
-        services: [
+        feedback: [
           {
             icon: img7,
             title: "Nandinee Gupta",
@@ -72,11 +72,11 @@ export default class Services extends Component {
             <section className="services">
                 <Title title="Testimonials" />
                 <div className="services-center">
-                {this.state.services.map(item => {
+                {this.state.feedback.map(item => {
                     return (
                     <article key={`item-${item.title}`} className="service">
                       <div className="testimonial-imgs">
-                        <img src={item.icon} />
+                        <img src={item.icon} alt="customers"/>
                         </div>
                         
                         {/* <span>{item.icon}</span> */}
