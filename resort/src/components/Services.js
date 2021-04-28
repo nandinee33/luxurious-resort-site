@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Title from "./Title";
-import { FaCocktail, FaSwimmer, FaShuttleVan, FaBeer } from "react-icons/fa";
-import { IoIosFitness } from "react-icons/io";
+import { FaCocktail, FaSwimmer, FaShuttleVan} from "react-icons/fa";
+import { CgGym } from "react-icons/cg";
 
 export default class Services extends Component {
 
@@ -14,7 +14,7 @@ export default class Services extends Component {
               "Happy Hour runs between 5:30pm-7:30pm in which you have some light snacks and wine."
           },
           {
-            icon: <IoIosFitness />,
+            icon: <CgGym/>,
             title: "Gyming",
             info:
               "Our friendly, professional staff is trained to help you along your fitness journey."

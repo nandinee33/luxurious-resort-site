@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Title from "./Title";
+import { Link } from "react-router-dom";
 import { GiBank } from "react-icons/gi";
 
 export default class Booking extends Component {
@@ -8,27 +9,20 @@ export default class Booking extends Component {
         booking: [
           {
             icon: <GiBank />,
-            title: "UPI Pay",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+            title: "UPI Pay"
           },
           {
             icon: <GiBank />,
-            title: "Google Pay",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+            title: "Google Pay"
           },
           {
             icon: <GiBank />,
-            title: "Paytm",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+            title: "Paytm"
           },
           {
             icon: <GiBank />,
             title: "Net Banking",
-            info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+
           }
         ]
       };
@@ -43,7 +37,7 @@ export default class Booking extends Component {
                     <article key={`item-${item.title}`} className="service">
                         <span>{item.icon}</span>
                         <h6>{item.title}</h6>
-                        <p>{item.info}</p>
+                        <Link to="/comingsoon" className="btn-primary">Pay Now</Link>
                     </article>
                     );
                 })}
