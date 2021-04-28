@@ -13,25 +13,25 @@ export default class Services extends Component {
             icon: nandinee,
             title: "Nandinee Gupta",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Frontend and backend Developer"
           },
           {
             icon: saumya,
             title: "Saumya Gupta",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+            "Frontend and backend Developer"
           },
           {
             icon: unnati,
             title: "Unnati Goyal",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+            "Frontend and backend Developer"
           },
           {
             icon: roshni,
             title: "Roshni Rawat",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+            "Frontend and backend Developer"
           },
          
           

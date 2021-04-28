@@ -7,6 +7,7 @@ import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error";
 import Team from "./pages/Team";
 import Testimonial from "./pages/Testimonial";
+import Order from "./pages/Order";
 
 import Navbar from "./components/Navbar";
 import { Switch, Route } from "react-router-dom";
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route exact path="/team/" component={Team} />
         <Route exact path="/testimonial/" component={Testimonial} />
+        <Route exact path="/order/" component={Order} />
         <Route component={Error} />
       </Switch>
     </>
