@@ -9,7 +9,12 @@ const Team = () => {
         <>
         <Hero hero="roomsHero">
             <Banner title="About Us">
-                <p className="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                <p className="about-para">Luxurious resort is designed so that you can simply book a room
+according to your choice and your need on the shore of beaches at very
+affordable price. Our aim is to give our travelers thousands of
+beautiful memories. All rooms that are referenced on our website have
+comfortable spaces with crisp sheets and sanitized bathrooms. For your ease
+you can apply different filters and check more about the rooms.</p>
                 <Link to="/" className="btn-primary">
                     return home
                 </Link>

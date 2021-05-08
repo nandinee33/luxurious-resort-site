@@ -5,33 +5,33 @@ import roshni from "../images/teamNdTestimonials/Roshni.jpg";
 import saumya from "../images/teamNdTestimonials/Saumya.jpg";
 import nandinee from "../images/teamNdTestimonials/Nandinee.jpg";
 
-export default class Services extends Component {
+export default class TeamMembers extends Component {
 
     state = {
-        services: [
+        members: [
           {
             icon: nandinee,
             title: "Nandinee Gupta",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+              "Frontend and Backend Developer"
           },
           {
             icon: saumya,
             title: "Saumya Gupta",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+            "Frontend and Backend Developer"
           },
           {
             icon: unnati,
             title: "Unnati Goyal",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+            "Frontend and Backend Developer"
           },
           {
             icon: roshni,
             title: "Roshni Rawat",
             info:
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+            "Frontend and Backend Developer"
           },
          
           
@@ -44,11 +44,11 @@ export default class Services extends Component {
             <section className="services">
                 <Title title="Our Team" />
                 <div className="services-center">
-                {this.state.services.map(item => {
+                {this.state.members.map(item => {
                     return (
                     <article key={`item-${item.title}`} className="service">
-                      <div className="testimonial-imgs single-room-images ">
-                        <img src={item.icon}/>
+                      <div className="testimonial-imgs">
+                        <img src={item.icon} alt="team members"/>
                         </div>
                         {/* <span>{item.icon}</span> */}
                         <h6>{item.title}</h6>
